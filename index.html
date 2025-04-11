@@ -1,104 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GLopE - FPS Ranked Grind</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLopE | FPS Gaming Beast</title>
+  <link rel="icon" type="image/png" href="/mnt/data/Asset 1@300x.png">
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f0f0f;
-      color: #ffffff;
     }
+
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: white;
+      line-height: 1.6;
+    }
+
     header {
-      background-color: #1a1a1a;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid #2f2f2f;
+      background-color: #ff4500;
+      display: flex;
+      align-items: center;
+      padding: 1rem 2rem;
+      justify-content: space-between;
+      box-shadow: 0 0 20px #ff0000;
     }
+
+    header img {
+      height: 60px;
+    }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: #00ffff;
-    }
-    nav {
-      text-align: center;
-      margin: 20px 0;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #ffffff;
+      font-size: 2rem;
       font-weight: bold;
     }
-    nav a:hover {
-      color: #00ffff;
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
     }
-    .content {
-      padding: 40px 20px;
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ff9800;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .logo-section {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-section img {
+      max-width: 100px;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-section img:hover {
+      transform: scale(1.1);
+    }
+
+    .about {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .about h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #ff5722;
+    }
+
+    .about p {
       max-width: 800px;
       margin: 0 auto;
     }
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-    iframe {
-      width: 100%;
-      height: 200px;
-      border: none;
-    }
+
     footer {
+      background-color: #111;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #888;
-      border-top: 1px solid #2f2f2f;
-      margin-top: 40px;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #999;
     }
   </style>
 </head>
+
 <body>
   <header>
+    <img src="/mnt/data/Asset 1@300x.png" alt="GLopE Logo">
     <h1>GLopE</h1>
-    <p>Tryhard Ranked Grind in CSGO, Valorant & FragPunk</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#videos">Videos</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <section class="hero">
+    <h2>Highest Rank FPS Demon 🔥</h2>
+    <p>Welcome to GLopE — a place where tryhards thrive and only the top of the leaderboard matters. I grind CSGO, Valorant, and FragPunk like a beast. Highest rank in all 3. Tap heads. No excuses. All aim, no luck.</p>
+  </section>
 
-  <div class="content" id="about">
-    <h2>About GLopE</h2>
-    <p>Welcome to GLopE—the channel where ranked grind meets FPS obsession. From crispy headshots in CSGO to tactical clutches in Valorant and raw chaos in FragPunk, this is where we lock in and climb the leaderboard. No fluff, no BS—just pure gameplay, top-tier comms, and grindset energy.</p>
-  </div>
+  <section class="logo-section">
+    <img src="/mnt/data/Asset 2@300x.png" alt="GLopE Alt Logo">
+    <img src="/mnt/data/Asset 3@300x.png" alt="GLopE Mono Logo">
+  </section>
 
-  <div class="content" id="videos">
-    <h2>Latest Videos</h2>
-    <div class="video-grid">
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID2" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID3" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID4" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <div class="content" id="contact">
-    <h2>Contact</h2>
-    <p>Want to collab, sponsor, or just vibe? Hit me up on:</p>
-    <ul>
-      <li>Email: <a href="mailto:glopetv@yourmail.com">glopetv@yourmail.com</a></li>
-      <li>Twitter: <a href="https://twitter.com/yourhandle" target="_blank">@GLopE</a></li>
-      <li>YouTube: <a href="https://youtube.com/@GLopE" target="_blank">GLopE</a></li>
-    </ul>
-  </div>
+  <section class="about">
+    <h3>Who is GLopE?</h3>
+    <p>
+      I’m GLopE, and I live for the climb. From CSGO Global Elite to Valorant Radiant to dominating the FragPunk ranks, I’m here to push every game to its limit. No shortcuts. No chill. Just cracked plays and pure grind.
+    </p>
+  </section>
 
   <footer>
-    &copy; 2025 GLopE. All rights reserved.
+    &copy; 2025 GLopE Gaming. All rights reserved.
   </footer>
 </body>
+
 </html>
